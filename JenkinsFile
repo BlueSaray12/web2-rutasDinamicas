@@ -6,6 +6,6 @@ node{
       'npm install'
     }
   stage('Construir'){
-      sh 'npm run build'
+      'npm run build'
     }
 }
